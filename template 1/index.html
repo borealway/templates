@@ -5,49 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barbershop BORODINSKII</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=PT+Serif');
+        body {
+            font-family: 'PT Serif', serif;
+            }
+    </style>
 </head>
 <body>
-    <ol>
-        <li>Markup
-            <ol>
-                <li>Basics HTML
-                    <ol>
-                        <li>HTML tags
-                            <ol>
-                            <li>Pair</li>
-                            <li>Single</li>
-                            </ol>
-                        </li>
-                    </ol>
-                </li>
-                <li> Basics CSS
-                    <ol>
-                        <li>Selectors
-                            <ol>
-                                <li>Type</li>
-                                <li>Class</li>
-                                <li>Included</li>
-                            </ol>
-                        </li>
-                    </ol>
-                </li>
-                <li>Style of coding</li>
-            </ol>
-        </li>
-        <li>Work with photoshop</li>
-        <li>Building</li>
-        <li>Decorative</li>
-        <li>Introduction</li>
-        <li>Progressive</li>
-    </ol>
-
-    <dl>
-        <dt>Termin</dt>
-        <dd>Description</dd>
-    </dl>
-
-    <header>
-        <nav>
+<!--Хедер с навигацией-->
+    <header class="main-header">
+        <nav class="main-navigation">
+            <a class="main-header-logo">
+                <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Барбершопа Бородинский"></a>
             <ul>
                 <li><a href="">Информация</a></li>
                 <li><a href="">Новости</a></li>
@@ -60,41 +30,48 @@
             </ul>
         </nav>
     </header>
-    <div class="logo"><img src="" alt=""></div>
-    <h1>Barbershop BORODINSKI</h1>
-    <div class="advantages">
-        <ul>
-            <li>
+<!--<div class="logo"><img src="" alt=""></div>-->
+<!--Основной контент страницы-->
+    <main class="container">
+        <h1 class="visually-hidden">Barbershop BORODINSKI</h1>
+<!--Раздел преимущества-->
+        <section class="features">
+            <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="features-list">
+            <li class="feature-item">
                 <h3>БЫСТРО</h3>
                 <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО!
                      ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ </p>
             </li>
-            <li>
+            <li class="feature-item">
                 <h3>КРУТО</h3>
                 <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. 
                     МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТ</p>
             </li>
-            <li>
+            <li class="feature-item">
                 <h3>ДОРОГО</h3>
                 <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО 
                     ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕ</p>
             </li>
         </ul>
-    </div>
-    <div class="news_and_gallery">
+        </section>
+<!--Раздел новостей-->
         <section class="news">
             <h2>Новости</h2>
-            <article>
-                <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! 
-                    ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТ</p>
-                <span>11 января</span>
-            </article>
-            <article>
-                <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС 
-                    «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛ</p>
-                <span>18 января</span>
-            </article>
-            <span class="news"><a href="">Все новости</a></span>
+            <ul class="news-list">
+                <li class="news-item">
+                    <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! 
+                        ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТ</p>
+                    <time datetime="2019-01-11">11 января</time>
+                </li>
+                <li class="news-item">
+                    <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС 
+                        «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛ</p>
+                    <time datetime="2019-01-18">18 января</time>
+                </li>
+            </ul>
+<!--Кнопка "Все новости" для открытии страницы с новостями-->
+            <a class="button" href="news.html">Все новости</a>
         </section>
         <div class="gallery">
             <h2>Фотогалерея</h2>
@@ -104,8 +81,8 @@
                 <li><a href=""><button>Вперёд</button></a></li>
             </ul>
         </div>
-    </div>
-    <div class="contacts_and_form">
+<!--контакты и форма обратной связи-->
+        <div class="contacts_and_form">
         <div class="contacts_info">
             <h2>Контактная информация</h2>
             <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
@@ -123,7 +100,9 @@
             <h2>Записаться</h2>
             <button>Отправить</button>
         </div>
-    </div>
+        </div>
+<!--Окончание контента основной страницы-->
+    </main>
     <footer>
         <div class="contacts">
             <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
@@ -147,5 +126,7 @@
             </div>
         </div>
     </footer>
+<!--Место для скриптов-->
+
 </body>
 </html>
