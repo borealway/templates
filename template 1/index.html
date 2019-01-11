@@ -6,10 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barbershop BORODINSKII</title>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=PT+Serif');
-        body {
-            font-family: 'PT Serif', serif;
-            }
     </style>
 </head>
 <body>
@@ -19,14 +15,26 @@
             <a class="main-header-logo">
                 <img src="img/index-logo.svg" width="368" height="153" alt="Логотип Барбершопа Бородинский"></a>
             <ul>
-                <li><a href="">Информация</a></li>
-                <li><a href="">Новости</a></li>
-                <li><a href="">Прайс-Лист</a></li>
-                <li><a href="">Магазин</a></li>
-                <li><a href="">Контакты</a></li>
+                <li>
+                    <a href="">Информация</a>
+                </li>
+                <li>
+                    <a href="">Новости</a>
+                </li>
+                <li>
+                    <a href="">Прайс-Лист</a>
+                </li>
+                <li>
+                    <a href="">Магазин</a>
+                </li>
+                <li>
+                    <a href="">Контакты</a>
+                </li>
             </ul>
             <ul class="user-navigation">
-                <li><a href="">Вход</a></li>
+                <li>
+                    <a href="">Вход</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -41,17 +49,20 @@
             <li class="feature-item">
                 <h3>БЫСТРО</h3>
                 <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! 
-                    ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+                    ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+                </p>
             </li>
             <li class="feature-item">
                 <h3>КРУТО</h3>
                 <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. 
-                    МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+                    МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+                </p>
             </li>
             <li class="feature-item">
                 <h3>ДОРОГО</h3>
                 <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. 
-                    К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+                    К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+                </p>
             </li>
         </ul>
         </section>
@@ -61,12 +72,14 @@
             <ul class="news-list">
                 <li class="news-item">
                     <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР!
-                         ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                         ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+                    </p>
                     <time datetime="2019-01-11">11 января</time>
                 </li>
                 <li class="news-item">
                     <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ,
-                        ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                        ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+                    </p>
                     <time datetime="2019-01-18">18 января</time>
                 </li>
             </ul>
@@ -76,58 +89,72 @@
 <!--Раздел галереи-->
         <section class="gallery">
             <h2>Фотогалерея</h2>
-            <div></div>
-            <ul>
-                <li><a href=""><button>Назад</button></a></li>
-                <li><a href=""><button>Вперёд</button></a></li>
-            </ul>
+            <figure class="gallery-content">
+                <a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Интеръер"></a>
+            </figure>
+            <span class="button gallery-button gallery-button-back">Назад</span>
+            <span class="button gallery-button gallery-button-next">Вперёд</span>
         </section>
 <!--контакты и форма обратной связи-->
-        <div class="contacts_and_form">
-        <div class="contacts_info">
+        <section class="contacts">
             <h2>Контактная информация</h2>
             <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
                 АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br>
-                ТЕЛЕФОН: +7 (495) 666-02-66</p>
+                ТЕЛЕФОН: +7 (495) 666-02-66
+            </p>
             <p>ВРЕМЯ РАБОТЫ: <br>
                 ПН—ПТ: С 10:00 ДО 22:00 <br>
-                СБ—ВС: С 10:00 ДО 19:00</p>
-            <ul>
-                <li><a href=""><button>Как проехать</button></a></li>
-                <li><a href=""><button>Обратная связь</button></a></li>
-            </ul>
-        </div>
-        <div class="form">
+                СБ—ВС: С 10:00 ДО 19:00
+            </p>
+                <a class="button" href="map.html">Как проехать</a>
+                <a class="button" href="contacts.html">Обратная связь</a>
+        </section>
+        <section class="appointment">
             <h2>Записаться</h2>
-            <button>Отправить</button>
-        </div>
-        </div>
+            <p class="appointment-info">Укажите желаемую дату и время и 
+                мы свяжемся для подтверждения брони
+            </p>
+            <!--Здесь будет форма-->
+        </section>
 <!--Окончание контента основной страницы-->
     </main>
-    <footer>
-        <div class="contacts">
-            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br> 
-                <a href="">Как нас найти?</a><br>
-                ТЕЛЕФОН: +7 (495) 666-02-66
-                </p>
-        </div>
-        <div class="social">
-            <span>Давайте дружить!</span>
+    <footer class="main-footer">
+        <p class="footer-contacts">
+            БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br> 
+            <a href="map.html">Как нас найти?</a><br>
+            ТЕЛЕФОН: +7 (495) 666-02-66
+        </p>
+        <div class="footer-social">
+            <b>Давайте дружить!</b>
             <ul>
-                <li><a href=""><img src="" alt="vkontakte"></a></li>
-                <li><a href=""><img src="" alt="facebook"></a></li>
-                <li><a href=""><img src="" alt="instagram"></a></li>
+                <li>
+                    <a class="social-button" href="#">vkontakte</a>
+                </li>
+                <li>
+                    <a class="social-button" href="#">facebook</a>
+                </li>
+                <li>
+                    <a class="social-button" href="#">instagram</a>
+                </li>
             </ul>
         </div>
-        <div class="partner">
-            <span>Разработано</span>
-            <div>
-                <span>html academy</span>
-            </div>
-        </div>
+        <p class="footer-copyright">
+            <b>Разработано</b>
+                <a class="button" href="https://htmlacademy.ru">html academy</a>
+        </p>
     </footer>
-<!--Место для скриптов-->
 
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+        <!--Здесь будет форма-->
+        <span class="modal-close">x</span>
+    </section>
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <span class="modal-close">x</span>
+    </section>
+<!--Место для скриптов-->
 </body>
 </html>
