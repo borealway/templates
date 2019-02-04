@@ -27,7 +27,7 @@ while (isSunk == false) {
         }
         else {
         alert ("MISS");
-        }
+        }  
     }
 }
 
