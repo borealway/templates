@@ -15,6 +15,37 @@ body {
     background-repeat: no-repeat;
 }
 
+
+.main-header {
+    margin-bottom: 75px;
+}
+
+.main-navigation {
+    display: flex;
+}
+
+.main-header-logo {
+    width:368px;
+    height:153px;
+
+    /*temp*/
+    display:block;
+}
+
+ul.site-navigation {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+ul.user-navigation {
+    margin:0;
+    padding:0;
+    list-style: none;    
+}
+
+
+
 .inner-page {
     color: #000000;
 
@@ -273,4 +304,8 @@ a {
 .restore:hover,
 .restore:focus {
     text-decoration: none;
+}
+
+.visually-hidden {
+    display: none;
 }
